@@ -1,0 +1,68 @@
+form{
+    width: 40%;
+    margin: auto;
+}
+form input{
+    width: 100%;
+    margin-top: 25px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #10cab7;
+    padding: 20px;
+    font-size: 15px;
+}
+form input:focus{
+    border-bottom: 3px solid #10cab7;
+    outline: none;
+}
+form textarea{
+    width: 100%;
+    margin-top: 25px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border: 1px solid #10cab7;
+    padding: 20px;
+    font-size: 15px;
+}
+form textarea:focus{
+    border: 3px solid #10cab7;
+    outline: none;
+}
+form button{
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    background-color: #10cab7;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 30px;
+}
+form button:hovre{
+    background-color: #fff;
+    color: #10cab7;
+}
+button:hover{
+    color: #10cab7;
+    background-color: #fff;
+    border: 1px solid #10cab7
+}
+@media(max-width: 991px){
+    form{
+        width: 90%;
+        margin: auto;
+    }
+}
+.text-red{
+    color: rgb(245, 89, 89);
+    font-size: 16px;
+    padding: 20px;
+}
+.border-red{
+    border-bottom:1px solid rgb(245, 89, 89);
+}

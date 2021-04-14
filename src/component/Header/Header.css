@@ -1,0 +1,31 @@
+:root{
+    --main-color: #10cab7;
+}
+::selection{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.header{
+    background-image: url('../../image/landing.jpg');
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 100%;
+}
+.text-box .hed{
+    font-size: 45px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.text-box p{
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 1.7;
+}
